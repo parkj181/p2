@@ -1,0 +1,1157 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body {background-color: black;}
+
+.body1{
+        background-color: black;}
+
+
+.body2{
+    background-color: #C3AC7F;}
+
+.body3{
+    background-color: #C3AC7F;
+    height: 300vh;
+}
+
+.body4{
+    background-color: #C3AC7F;
+    height: 300vh;
+}
+
+.body5{
+    background-color: #C3AC7F;
+    height: 420vh;
+
+}
+
+.body6{
+    background-color: #C3AC7F;
+    height: 200vh;
+}
+
+.body7{
+    background-color: #C3AC7F;
+    height: 2000px;
+
+}
+
+.body8{
+    background-color: black;
+    
+
+}
+
+.body9{
+    background-color: black;
+    height: 2000px;
+}
+
+.body10{
+    background-color: black;
+    height: 2000px;
+}
+
+.body11{
+    background-color: black;
+    height: 2000px;
+}
+
+.body12{
+    background-color: #C3AC7F;
+    height: 2000px;
+}
+
+
+
+.sender{
+    background-color: black;
+    font-family: 'Inconsolata', monospace;
+    font-size: 3vw;
+    position: relative;
+    width: max-content;
+    height: 19px;
+    left: 55px;
+    top: 58px;
+    color: #12FC53;
+    padding-bottom: 20px;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    
+}
+
+.sender::before,
+.sender::after {
+    content:"";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.sender::before{
+    background: black;
+    animation: 
+        typewriter 4s steps(21) forwards;
+}
+
+.sender::after{
+    width: .125em;
+    background:#12FC53;
+    animation: 
+        typewriter 4s steps(21) forwards;
+
+}
+
+@keyframes typewriter{
+    to {
+        left: 100%;
+    }
+}
+
+.paragraphs{
+    position: absolute;
+}
+
+.p1a{
+
+    font-family: 'Inconsolata', monospace;
+    position: absolute;
+    width: 90vw;
+    height: 19px;
+    left: 55px;
+    top: 58px;
+    color: #12FC53;
+    padding-bottom: 20px;
+    font-size: 2vw;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+
+}
+
+
+.p1li{
+    font-family: 'Inconsolata', monospace;
+    color: #12FC53;
+    position: relative;
+    font-size: 4vw;
+    top: 700px;
+    left: 1200px;
+    text-decoration: none;
+}
+
+
+
+.p1a:hover, .body1:hover {
+    background-color: #C3AC7F;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.p1li:hover{
+    font-family: 'Inconsolata', monospace;
+    color: black;
+    
+}
+
+
+
+
+
+@keyframes typewriter{
+    to {
+        left: 100%;
+    }
+
+}
+
+.paragraphs2{
+    position: absolute;
+}
+
+.p2a{
+    
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    height: 19px;
+    top: 58px;
+    color: black;
+    padding-bottom: 20px;
+    font-size: 5vw;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none; 
+    
+
+}
+
+.p2b{
+    position: relative;
+    height: 19px;
+    left: 10vw;
+    top: 10vw;
+    color: black;
+    padding-bottom: 20px;
+    font-size: 2vw;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+
+.p2c{
+
+    position: relative;
+    height: 19px;
+    left: 55px;
+    top: 15vw;
+    color: black;
+    padding-bottom: 20px;
+    font-size: 2vw;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+.p2li{
+    font-family: 'Inconsolata', monospace;
+    color: black;
+    position: relative;
+    font-size: 4vw;
+    top: 700px;
+    left: 1200px;
+    text-decoration: none;
+    
+}
+
+.p2a:hover, .p2b:hover, .p2c:hover{
+    color: #12FC53;
+    font-family: 'Inconsolata', monospace;
+
+    
+}
+
+.p2li:hover{
+    font-family: 'Inconsolata', monospace;
+    color: #12FC53;
+}
+
+.paragraphs3{
+    position: absolute;
+    width: 30px;
+}
+
+.p3a{
+
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    height: 19px;
+    top: 58px;
+    color: black;
+    padding-bottom: 20px;
+    font-size: 5vw;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+
+}
+
+.p3c{
+
+    position: relative;
+    height: 19px;
+    left: 55px;
+    top: 18vw;
+    color: black;
+    padding-bottom: 20px;
+    font-size: 2vw;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+    width: 60vw;
+
+}
+
+.p3li{
+
+    font-family: 'Inconsolata', monospace;
+    color: black;
+    position: relative;
+    font-size: 4vw;
+    top: 2900px;
+    left: 1000px;
+    text-decoration: none;
+    
+}
+
+.p3a:hover, .p3c:hover{
+    color: #12FC53;
+    font-family: 'Inconsolata', monospace;
+
+}
+
+.p3li:hover{
+    font-family: 'Inconsolata', monospace;
+    color: #12FC53;
+}
+
+
+
+.paragraphs4{
+    position: absolute;
+}
+
+.p4a{
+
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    width: 90vw;
+    height: 19px;
+    top: 58px;
+    color: black;
+    padding-bottom: 20px;
+    font-size: 5vw;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+
+}
+
+.p4c{
+
+    position: relative;
+    width: 90vw;
+    height: 19px;
+    left: 55px;
+    top: 18vw;
+    color: black;
+    padding-bottom: 20px;
+    font-size: 2vw;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+    width: 60vw;
+
+}
+
+.p4li{
+
+    font-family: 'Inconsolata', monospace;
+    color: black;
+    position: relative;
+    font-size: 4vw;
+    top: 2100px;
+    left: 1200px;
+    text-decoration: none;
+    
+}
+
+.p4a:hover, .p4c:hover{
+    color: #12FC53;
+    font-family: 'Inconsolata', monospace;
+
+    
+}
+
+.p4li:hover{
+    font-family: 'Inconsolata', monospace;
+    color: #12FC53;
+}
+
+.p5a{
+
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    width: 90vw;
+    height: 19px;
+    top: 58px;
+    color: black;
+    padding-bottom: 20px;
+    font-size: 5vw;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+
+}
+
+.p5c{
+
+    position: relative;
+    width: 90vw;
+    height: 19px;
+    left: 55px;
+    top: 18vw;
+    color: black;
+    padding-bottom: 20px;
+    font-size: 2vw;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+    width: 60vw;
+    
+
+}
+
+.p5li{
+
+    font-family: 'Inconsolata', monospace;
+    color: black;
+    position: relative;
+    font-size: 4vw;
+    top: 3100px;
+    left: 1200px;
+    text-decoration: none;
+    
+}
+
+.p5li:hover{
+    font-family: 'Inconsolata', monospace;
+    color: #12FC53;
+}
+
+.p5a:hover, .p5c:hover{
+    color: #12FC53;
+    font-family: 'Inconsolata', monospace;
+
+    
+}
+
+.p6a{
+
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    width: 90vw;
+    height: 19px;
+    top: 58px;
+    color: black;
+    padding-bottom: 20px;
+    font-size: 5vw;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+
+}
+
+.p6c{
+
+    position: relative;
+    width: 90vw;
+    height: 19px;
+    left: 55px;
+    top: 18vw;
+    color: black;
+    padding-bottom: 20px;
+    font-size: 2vw;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+    width: 60vw;
+    
+
+}
+
+.p6li{
+
+    font-family: 'Inconsolata', monospace;
+    color: black;
+    position: relative;
+    font-size: 4vw;
+    top: 1300px;
+    left: 1200px;
+    text-decoration: none;
+    
+}
+
+.p6li:hover{
+    font-family: 'Inconsolata', monospace;
+    color: #12FC53;
+}
+
+.p6a:hover, .p6c:hover{
+    color: #12FC53;
+    font-family: 'Inconsolata', monospace;
+
+    
+}
+
+.p7a{
+
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    width: 90vw;
+    height: 19px;
+    top: 58px;
+    color: black;
+    padding-bottom: 20px;
+    font-size: 5vw;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+
+}
+
+.p7c{
+
+    position: relative;
+    width: 90vw;
+    height: 19px;
+    left: 55px;
+    top: 18vw;
+    color: black;
+    padding-bottom: 20px;
+    font-size: 2vw;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+    width: 60vw;
+
+}
+
+.p7li{
+
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    
+}
+
+.p7a:hover, .p7c:hover, .p7li:hover{
+    color: #12FC53;
+    font-family: 'Inconsolata', monospace;
+
+    
+}
+
+
+
+
+.p8a{
+
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    width: 90vw;
+    height: 19px;
+    top: 58px;
+    color: black;
+    padding-bottom: 20px;
+    font-size: 5vw;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+
+}
+
+.p8c{
+
+    position: relative;
+    width: 90vw;
+    height: 19px;
+    left: 55px;
+    top: 18vw;
+    color: black;
+    padding-bottom: 20px;
+    font-size: 2vw;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+    width: 60vw;
+
+}
+
+.p8li{
+
+    font-family: 'Inconsolata', monospace;
+    color: black;
+    position: relative;
+    font-size: 4vw;
+    top: 300px;
+    left: 200px;
+    text-decoration: none;
+    
+}
+
+.p8li:hover{
+    font-family: 'Inconsolata', monospace;
+    color: #12FC53;
+}
+
+.p8a:hover, .p8c:hover{
+    background-color: black;
+    color: #12FC53;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.body8:hover{
+background-color: black;
+}
+
+.p9a{
+
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    width: 90vw;
+    height: 19px;
+    top: 58px;
+    color: black;
+    padding-bottom: 20px;
+    font-size: 5vw;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+
+}
+
+.p9c{
+
+    position: relative;
+    width: 90vw;
+    height: 19px;
+    left: 55px;
+    top: 18vw;
+    color: black;
+    padding-bottom: 20px;
+    font-size: 2vw;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+    width: 60vw;
+
+}
+
+.p9li{
+
+    font-family: 'Inconsolata', monospace;
+    color: black;
+    position: relative;
+    font-size: 4vw;
+    top: 3200px;
+    left: 1000px;
+    text-decoration: none;
+    
+}
+
+.p9li:hover{
+    font-family: 'Inconsolata', monospace;
+    color: #12FC53;
+}
+
+.p9a:hover, .p9c:hover{
+    background-color: black;
+    color: #12FC53;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.body9:hover{
+background-color: black;
+}
+
+.p10a{
+
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    width: 90vw;
+    height: 19px;
+    top: 58px;
+    color: black;
+    padding-bottom: 20px;
+    font-size: 5vw;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+
+}
+
+.p10c{
+
+    position: relative;
+    width: 90vw;
+    height: 19px;
+    left: 55px;
+    top: 18vw;
+    color: black;
+    padding-bottom: 20px;
+    font-size: 2vw;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+    width: 60vw;
+
+}
+
+.p10li{
+
+    font-family: 'Inconsolata', monospace;
+    color: black;
+    position: relative;
+    font-size: 4vw;
+    top: 3000px;
+    left: 1000px;
+    text-decoration: none;
+    
+}
+
+.p10li:hover{
+    font-family: 'Inconsolata', monospace;
+    color: #12FC53;
+}
+
+
+
+.p10a:hover, .p10c:hover{
+    background-color: black;
+    color: #12FC53;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.body10:hover{
+    background-color: black;
+}
+
+.p11a{
+
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    width: 90vw;
+    height: 19px;
+    top: 58px;
+    color: black;
+    padding-bottom: 20px;
+    font-size: 5vw;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+
+}
+
+.p11c{
+
+    position: relative;
+    width: 90vw;
+    height: 19px;
+    left: 55px;
+    top: 18vw;
+    color: black;
+    padding-bottom: 20px;
+    font-size: 2vw;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+    width: 60vw;
+
+}
+
+.p11li{
+
+    font-family: 'Inconsolata', monospace;
+    color: black;
+    position: relative;
+    font-size: 4vw;
+    top: 2550px;
+    left: 1000px;
+    text-decoration: none;
+    
+}
+
+.p11li:hover{
+    font-family: 'Inconsolata', monospace;
+    color: #12FC53;
+}
+
+.p11a:hover, .p11c:hover{
+    background-color: black;
+    color: #12FC53;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.body11:hover{
+background-color: black;
+}
+
+.p12a{
+
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    width: 90vw;
+    height: 19px;
+    top: 58px;
+    color: black;
+    padding-bottom: 20px;
+    font-size: 5vw;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+
+}
+
+.p12c{
+
+    position: relative;
+    width: 90vw;
+    height: 19px;
+    left: 55px;
+    top: 18vw;
+    color: black;
+    padding-bottom: 20px;
+    font-size: 2vw;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.p12li{
+
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    
+}
+
+.p12a:hover, .p12c:hover, .p12li:hover{
+    color: #12FC53;
+    font-family: 'Inconsolata', monospace;
+
+    
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 428px) {
+
+    .p1a{
+        position: relative;
+        left: 30px;
+        font-size: 20px;
+        text-align: center, justify;
+
+        
+
+    }
+
+    .p1li{
+        top: 450px;
+        left: 30px;
+        font-size: 25px;
+
+    }
+
+    .p2a{
+        
+        left: 30px;
+        font-size: 30px;
+        text-align: center, justify;
+        padding-left: none;
+        padding-right: none;
+        padding-top: none;
+        padding-bottom: none;
+        
+    }
+
+    .p2b{
+        left: 30px;
+        top: 90px;
+        width: 300px;
+        font-size: 30px;
+        
+    }
+
+    .p2c{
+        left: 30px;
+        font-size: 30px;
+        text-align: center, justify;
+        top: 300px;
+    }
+
+    .p2li{
+        top: 1100px;
+        left: 50px;
+        font-size: 80px;
+
+    }
+
+    .p3a{
+        position: relative;
+        left: 30px;
+        font-size: 40px;
+        text-align: center, justify;
+        padding-left: none;
+        padding-right: none;
+        padding-top: none;
+        padding-bottom: none;
+        width: none;
+    }
+
+    .p3c{
+        top: 120px;
+        left: 100px;
+        font-size: 30px;
+        width: none;
+        padding-left: none;
+        padding-right: none;
+        padding-top: none;
+        padding-bottom: none;
+        width: 600px;
+    }
+    
+    .p3li{
+        top: 4000px;
+        left: 100px;
+        font-size: 80px;
+
+    }
+
+    .p4a{
+        position: relative;
+        left: 30px;
+        font-size: 40px;
+        text-align: center, justify;
+        padding-left: none;
+        padding-right: none;
+        padding-top: none;
+        padding-bottom: none;
+        width: none;
+    }
+
+    .p4c{
+        top: 120px;
+        left: 100px;
+        font-size: 30px;
+        width: none;
+        padding-left: none;
+        padding-right: none;
+        padding-top: none;
+        padding-bottom: none;
+        width: 600px;
+    }
+    
+    .p4li{
+        top: 3000px;
+        left: 100px;
+        font-size: 80px;
+
+    }
+
+    .p5a{
+        position: relative;
+        left: 30px;
+        font-size: 40px;
+        text-align: center, justify;
+        padding-left: none;
+        padding-right: none;
+        padding-top: none;
+        padding-bottom: none;
+        width: none;
+    }
+
+    .p5c{
+        top: 120px;
+        left: 100px;
+        font-size: 30px;
+        width: none;
+        padding-left: none;
+        padding-right: none;
+        padding-top: none;
+        padding-bottom: none;
+        width: 600px;
+    }
+    
+    .p5li{
+        top: 4500px;
+        left: 100px;
+        font-size: 80px;
+
+    }
+
+    .p6a{
+        position: relative;
+        left: 30px;
+        font-size: 40px;
+        text-align: center, justify;
+        padding-left: none;
+        padding-right: none;
+        padding-top: none;
+        padding-bottom: none;
+        width: none;
+    }
+
+    .p6c{
+        top: 120px;
+        left: 100px;
+        font-size: 30px;
+        width: none;
+        padding-left: none;
+        padding-right: none;
+        padding-top: none;
+        padding-bottom: none;
+        width: 600px;
+    }
+    
+    .p6li{
+        top: 1750px;
+        left: 100px;
+        font-size: 80px;
+
+    }
+
+    .p8a{
+        position: relative;
+        left: 30px;
+        font-size: 40px;
+        text-align: center, justify;
+        padding-left: none;
+        padding-right: none;
+        padding-top: none;
+        padding-bottom: none;
+        width: none;
+    }
+
+    .p8c{
+        top: 120px;
+        left: 100px;
+        font-size: 30px;
+        width: none;
+        padding-left: none;
+        padding-right: none;
+        padding-top: none;
+        padding-bottom: none;
+        width: 600px;
+    }
+    
+    .p8li{
+        top: 200px;
+        left: 600px;
+        font-size: 30px;
+
+    }
+
+    .p9a{
+        position: relative;
+        left: 30px;
+        font-size: 40px;
+        text-align: center, justify;
+        padding-left: none;
+        padding-right: none;
+        padding-top: none;
+        padding-bottom: none;
+        width: none;
+    }
+
+    .p9c{
+        top: 120px;
+        left: 100px;
+        font-size: 30px;
+        width: none;
+        padding-left: none;
+        padding-right: none;
+        padding-top: none;
+        padding-bottom: none;
+        width: 600px;
+    }
+    
+    .p9li{
+        top: 4700px;
+        left: 100px;
+        font-size: 80px;
+
+    }
+
+    .p10a{
+        position: relative;
+        left: 30px;
+        font-size: 40px;
+        text-align: center, justify;
+        padding-left: none;
+        padding-right: none;
+        padding-top: none;
+        padding-bottom: none;
+        width: none;
+    }
+
+    .p10c{
+        top: 120px;
+        left: 100px;
+        font-size: 30px;
+        width: none;
+        padding-left: none;
+        padding-right: none;
+        padding-top: none;
+        padding-bottom: none;
+        width: 600px;
+    }
+    
+    .p10li{
+        top: 4400px;
+        left: 100px;
+        font-size: 80px;
+
+    }
+
+    .p11a{
+        position: relative;
+        left: 30px;
+        font-size: 40px;
+        text-align: center, justify;
+        padding-left: none;
+        padding-right: none;
+        padding-top: none;
+        padding-bottom: none;
+        width: none;
+    }
+
+    .p11c{
+        top: 120px;
+        left: 100px;
+        font-size: 30px;
+        width: none;
+        padding-left: none;
+        padding-right: none;
+        padding-top: none;
+        padding-bottom: none;
+        width: 600px;
+    }
+    
+    .p11li{
+        top: 3900px;
+        left: 100px;
+        font-size: 80px;
+
+    }
+
+    
+
+    
+    
+}
